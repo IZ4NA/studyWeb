@@ -1,0 +1,7 @@
+
+.navbar{
+      flex: 1; /* Ocupa o resto do espaço */
+      height: 10vh;
+  background-color: #474545;
+  color: white;
+}

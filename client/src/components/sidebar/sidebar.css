@@ -1,0 +1,13 @@
+body {
+  color: white;
+}
+
+.sidebar{
+  
+  width: 300px;
+  height: 100vh;
+  background-color: #1d1c1c;
+  color: white;
+}
+
+
