@@ -2,12 +2,21 @@ body {
   color: white;
 }
 
-.sidebar{
-  
-  width: 300px;
+.sidebar{  
+  width: 400px;
   height: 100vh;
   background-color: #1d1c1c;
   color: white;
 }
+
+.conteiner-sidebar{
+  padding: 25px;
+}
+
+/* .top-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 
