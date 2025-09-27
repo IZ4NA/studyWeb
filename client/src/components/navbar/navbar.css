@@ -1,4 +1,6 @@
-
+body{
+  position: absolutes;
+}
 .navbar{
       flex: 1; /* Ocupa o resto do espaço */
       height: 10vh;
