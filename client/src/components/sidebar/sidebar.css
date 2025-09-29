@@ -3,14 +3,14 @@ body {
   position: absolute;
 }
 
-.sidebar{  
+.sidebar {
   width: 400px;
   height: 100vh;
   background-color: #1d1c1c;
   color: white;
 }
 
-.conteiner-sidebar{
+.conteiner-sidebar {
   padding: 25px;
 }
 
@@ -19,5 +19,31 @@ body {
   justify-content: center;
   align-items: center;
 } */
+.rotasApis {
+  list-style: none; /* remove os pontinhos */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
+.rotasApis a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
 
+.rotasApis a:hover {
+  color: #00ff99;
+  background-color: #1f1f1f;
+}
+
+.rotasApis .ativo {
+  background-color: #00ff99;
+  color: #1a1a1a;
+  font-weight: bold;
+}
