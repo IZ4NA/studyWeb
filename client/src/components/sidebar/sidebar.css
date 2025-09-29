@@ -1,13 +1,16 @@
 body {
   color: white;
   position: absolute;
+  
 }
 
 .sidebar {
+  border-radius: 15px;
   width: 400px;
-  height: 100vh;
-  background-color: #1d1c1c;
+  height: auto;
+  background-color: #2d2c2c;
   color: white;
+  margin: 40px;
 }
 
 .conteiner-sidebar {
@@ -99,7 +102,7 @@ body {
 }
 
 .conteiner-perfil {
-  margin-top: 350px;
+  margin-top: 330px;
   display: flex;
   justify-content: center;
   align-items: center;

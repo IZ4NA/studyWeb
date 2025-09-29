@@ -1,9 +1,15 @@
-body{
-  position: absolutes;
+body {
+  position: absolute;
 }
-.navbar{
-      flex: 1; /* Ocupa o resto do espaço */
-      height: 10vh;
-  background-color: #474545;
+.navbar {
+  width: 75%;
+  height: 8vh;
+  margin-top: 40px;
+  border-radius: 15px;
+  background-color: #2d2c2c;
   color: white;
+}
+
+.conteiner-navbar{
+  padding: 5px  20px;
 }
