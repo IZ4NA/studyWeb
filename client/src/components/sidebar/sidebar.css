@@ -12,20 +12,22 @@ body {
 
 .conteiner-sidebar {
   padding: 25px;
+  
 }
 
-/* .top-logo{
+.top-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
+
 .rotasApis {
   list-style: none; /* remove os pontinhos */
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
 }
 
 .rotasApis a {
@@ -46,4 +48,100 @@ body {
   background-color: #00ff99;
   color: #1a1a1a;
   font-weight: bold;
+}
+
+.conteiner-dialogs a {
+  list-style: none;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  color: #cccccc;
+  display: block;
+  transition: 0.2s;
+}
+
+.conteiner-dialogs a:hover {
+  color: #00ff99;
+  background-color: #1f1f1f;
+}
+
+.hooks-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hooks-list a {
+  text-decoration: none;
+  color: #cccccc;
+  padding: 8px 20px;
+  display: block;
+  border-radius: 6px;
+}
+
+.hooks-list a:hover {
+  color: #00ff99;
+  background-color: #1f1f1f;
+}
+
+.conteiner-cruds a {
+  text-decoration: none;
+  color: #cccccc;
+  padding: 8px 20px;
+  display: block;
+  border-radius: 6px;
+}
+
+.conteiner-cruds a:hover {
+  color: #00ff99;
+  background-color: #1f1f1f;
+}
+
+.conteiner-perfil {
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4a4a;
+  height: 80px;
+  border-radius: 7px;
+  padding: 0px 10px;
+}
+
+.perfil {
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-left{
+  display: flex;
+  gap: 10px;
+}
+
+.foto {
+  border-radius: 6px;
+  width: 50px;
+  height: 50px;
+  background-color: #afb4b2;
+}
+
+.mid-perfil p{
+  padding: 0%;
+  margin: 0%;
+  font-size: 18px;
+
+}
+
+.sair{
+  cursor: pointer;
+  transition: 0.3;
+  color: #ccc;
+}
+
+.sair:hover{
+  color: rgb(255, 255, 255);
+  transition: 0.3;
 }

@@ -17,7 +17,7 @@ function Sidebar() {
         </div>
 
       <div>
-        <h2>API rest</h2>
+        <h3>API rest</h3>
        <ul className="rotasApis">
         <li><Link to="/gets">Gets</Link></li>
         <li><Link to="/posts">Post</Link></li>
@@ -27,14 +27,14 @@ function Sidebar() {
       </div>
 
 
-      <div>
-        <Link to="dialogs">Dialogs</Link>
+      <div className="conteiner-dialogs">
+        <Link to="/dialogs">Dialogs</Link>
       </div>
 
 
       <div>
-        <h2>Hoks</h2>
-        <ul>
+        <h3>Hoks</h3>
+        <ul className="hooks-list">
           <li><Link to="/usestates">UseState</Link></li>
           <li><Link to="/useefects">UseEfect</Link></li>
           <li><Link to="/usecontexts">UseContext</Link></li>
@@ -42,18 +42,24 @@ function Sidebar() {
       </div>
 
 
-      <div>
+      <div className="conteiner-cruds">
         <Link to="/cruds">Cruds</Link>
       </div>
 
 
       <div className="conteiner-perfil">
         <div className="perfil">
+          <div className="perfil-left">
+            
           <div className="foto"></div>
+
+          <div className="mid-perfil">
           <p>nome</p>
           <p>aluno full-stack</p>
+          </div>
+          </div>
 
-          <p>sair</p>
+          <p className="sair">sair</p>
         </div>
       </div>
 
