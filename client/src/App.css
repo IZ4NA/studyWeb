@@ -10,6 +10,7 @@ body {
   display: flex; /* Coloca Sidebar e Navbar lado a lado */
   width: 100vw;
   height: 100vh;
+  gap: 200px;
 }
 
 

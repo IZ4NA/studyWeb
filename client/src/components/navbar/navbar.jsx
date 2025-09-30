@@ -5,8 +5,22 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="conteiner-navbar">
-        <p>navbar nega</p>
+        <div>
+          <input className="search" type="text" />
+        </div>
 
+        <div className="navbar-right">
+          <div className="light">
+            <p>L</p>
+          </div>
+
+          <div className="perfil-user-top"></div>
+
+          <div>
+            <p>Nome</p>
+            <p>alunos full-stack</p>
+          </div>
+        </div>
       </div>
     </div>
   );
