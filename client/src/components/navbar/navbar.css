@@ -1,27 +1,26 @@
 body {
   position: absolute;
-
 }
 .navbar {
-  
-  width: 60%;
-  height: 7vh;
-  margin-top: 30px;
-  border-radius: 25px;
-  background-color: #2d2c2c;
-  
   color: white;
+   margin-top: 30px;
 }
 
-.conteiner-navbar{
-  padding: 5px  20px;
+.conteiner-navbar {
+  width: 50vw;
+   height: 6vh;
+  border-radius: 25px;
+  background-color: #2d2c2c;
+  padding: 5px 20px;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
 .search {
+  color: white;
+  font-size: 18px;
   padding: 10px;
   width: 15vw;
   height: 2vh;
@@ -30,15 +29,15 @@ body {
   border-radius: 25px;
 }
 
-.navbar-right{
+.navbar-right {
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 10px;
 }
 
-.light{
-   display: flex;
+.light {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -47,12 +46,18 @@ body {
   background-color: #3a3939;
 }
 
-.perfil-user-top{
-    display: flex;
+.perfil-user-top {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 100%;
   background-color: #3a3939;
+}
+
+.info-perfil p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
 }

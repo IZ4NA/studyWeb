@@ -16,7 +16,7 @@ function Navbar() {
 
           <div className="perfil-user-top"></div>
 
-          <div>
+          <div className="info-perfil">
             <p>Nome</p>
             <p>alunos full-stack</p>
           </div>

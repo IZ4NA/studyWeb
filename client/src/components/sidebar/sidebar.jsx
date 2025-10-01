@@ -17,7 +17,7 @@ function Sidebar() {
         </div>
 
       <div>
-        <h3>API rest</h3>
+        <p>API rest</p>
        <ul className="rotasApis">
         <li><Link to="/gets">Gets</Link></li>
         <li><Link to="/posts">Post</Link></li>
@@ -33,7 +33,7 @@ function Sidebar() {
 
 
       <div>
-        <h3>Hoks</h3>
+        <p>Hoks</p>
         <ul className="hooks-list">
           <li><Link to="/usestates">UseState</Link></li>
           <li><Link to="/useefects">UseEfect</Link></li>
