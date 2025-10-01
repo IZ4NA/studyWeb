@@ -1,15 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
- 
-  background-color: #1a1919;
-  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #292727;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-  display: flex; /* Coloca Sidebar e Navbar lado a lado */
-  gap: 200px;
+
+.app {
+  display: flex;
+ gap: 200px;
 }
 
-.conteudo{
+
+
+
+.main-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-}
+} 
+
+
+
+/* área onde entram as páginas */
+.content {
+  flex: 1;
+  background-color: #3a3939;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+} 

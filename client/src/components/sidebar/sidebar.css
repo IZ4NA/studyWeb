@@ -6,20 +6,22 @@ body {
 .sidebar {
   border-radius: 25px;
   width: 400px;
-  height: auto;
+  height: 92vh;
   background-color: #2d2c2c;
   color: white;
-  margin: 30px;
+  margin: 50px 30px;
 }
 
 .conteiner-sidebar {
   padding: 25px;
+
 }
 
 .top-logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 36px;
 }
 
 .rotasApis {
@@ -102,7 +104,7 @@ body {
 }
 
 .conteiner-perfil {
-  margin-top: 330px;
+  margin-top: 420px;
   display: flex;
   justify-content: center;
   align-items: center;

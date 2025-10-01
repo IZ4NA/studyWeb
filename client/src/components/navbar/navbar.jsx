@@ -1,6 +1,9 @@
 import React from "react";
 import "./navbar.css";
 
+import {Link} from "react-router-dom"
+
+
 function Navbar() {
   return (
     <div className="navbar">
@@ -14,12 +17,12 @@ function Navbar() {
             <p>L</p>
           </div>
 
-          <div className="perfil-user-top"></div>
-
-          <div className="info-perfil">
-            <p>Nome</p>
-            <p>alunos full-stack</p>
-          </div>
+          
+          <Link className="button-login" to="/login">Login</Link>
+          <Link className="button-register" to="/register">Register</Link>
+         
+          
+          
         </div>
       </div>
     </div>

@@ -3,12 +3,12 @@ body {
 }
 .navbar {
   color: white;
-   margin-top: 30px;
+  margin-top: 30px;
 }
 
 .conteiner-navbar {
-  width: 50vw;
-   height: 6vh;
+  width: 55vw;
+  height: 6vh;
   border-radius: 25px;
   background-color: #2d2c2c;
   padding: 5px 20px;
@@ -21,7 +21,7 @@ body {
 .search {
   color: white;
   font-size: 18px;
-  padding: 10px;
+  padding: 20px;
   width: 15vw;
   height: 2vh;
   background-color: #3c3b3b;
@@ -44,6 +44,7 @@ body {
   height: 40px;
   border-radius: 100%;
   background-color: #3a3939;
+  cursor: pointer;
 }
 
 .perfil-user-top {
@@ -56,8 +57,29 @@ body {
   background-color: #3a3939;
 }
 
-.info-perfil p{
-  margin: 0px;
-  padding: 0px;
-  font-size: 16px;
+.button-login {
+  background-color: rgb(52, 57, 62);
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+
+.button-register {
+  background-color: rgb(52, 57, 62);
+  color: white;
+  padding: 10px 45px;
+  text-decoration: none;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+
+.button-login:hover {
+  background-color: rgb(68, 74, 80);
+  
+}
+
+.button-register:hover {
+  background-color: rgb(68, 74, 80);
 }
