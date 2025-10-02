@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Put(props) {
+export default function Context() {
     return (
         <div>
-            <p>rota put</p>
+            <p>page context</p>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Put(props) {
+export default function useEfects() {
     return (
         <div>
-            <p>rota put</p>
+            <p>page useEfects</p>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Put(props) {
+export default function Crud(props) {
     return (
         <div>
-            <p>rota put</p>
+            <p>rota crud</p>
         </div>
     );
 }

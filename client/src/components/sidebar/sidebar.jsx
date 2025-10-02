@@ -16,34 +16,38 @@ function Sidebar() {
         {/* <p>IZANASTUDY</p> */}
         </div>
 
+        <div className="conteiner-dialogs">
+        <Link to="/">Home</Link>
+      </div>
+
       <div>
         <p>API rest</p>
        <ul className="rotasApis">
-        <li><Link to="/gets">Gets</Link></li>
-        <li><Link to="/posts">Post</Link></li>
-        <li><Link to="/puts">Put</Link></li>
-        <li><Link to="/deletes">Deletes</Link></li>
+        <li><Link to="/getPage">Gets</Link></li>
+        <li><Link to="/postPage">Post</Link></li>
+        <li><Link to="/putPage">Put</Link></li>
+        <li><Link to="/deletePage">Deletes</Link></li>
        </ul>
       </div>
 
 
       <div className="conteiner-dialogs">
-        <Link to="/dialogs">Dialogs</Link>
+        <Link to="/dialogsPage">Dialogs</Link>
       </div>
 
 
       <div>
         <p>Hoks</p>
         <ul className="hooks-list">
-          <li><Link to="/usestates">UseState</Link></li>
-          <li><Link to="/useefects">UseEfect</Link></li>
-          <li><Link to="/usecontexts">UseContext</Link></li>
+          <li><Link to="/statePage">UseState</Link></li>
+          <li><Link to="/efectsPage">UseEfect</Link></li>
+          <li><Link to="/contextPage">UseContext</Link></li>
         </ul>
       </div>
 
 
       <div className="conteiner-cruds">
-        <Link to="/cruds">Cruds</Link>
+        <Link to="/crudsPage">Cruds</Link>
       </div>
 
 
