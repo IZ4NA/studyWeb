@@ -9,7 +9,7 @@ function Navbar() {
     <div className="navbar">
       <div className="conteiner-navbar">
         <div>
-          <input className="search" type="text" />
+          <input className="search" type="text" placeholder="search..." />
         </div>
 
         <div className="navbar-right">
