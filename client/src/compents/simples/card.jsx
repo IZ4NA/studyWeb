@@ -14,6 +14,7 @@ export default function Card() {
         </div>
         <button onClick={() => setIsOpen(true)} className="buttom-dialog">Abrir</button>
 
+
         {isOpen && (
           <div className="dialogOverlay">
             <div className="dialogOpem">
@@ -25,6 +26,8 @@ export default function Card() {
             </div>
           </div>
         )}
+
+        
       </div>
     </div>
   );
