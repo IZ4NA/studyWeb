@@ -7,13 +7,18 @@ export default function Card() {
 
   return (
     <div className="menu">
+      <button className="button-option" onClick={() => setIsOpenMenu(!isOpenMneu)}> 
+        opitions ⌄
+      </button>
 
-      <button className="button-option">opitions</button>
-
-
-        {
-          
-        }
+      {isOpenMneu && (
+        <div className="drop-menu">
+          <button className="button-drop-mmenu">✏️ Edit</button>
+          <button className="button-drop-mmenu">📄 Duplicate</button>
+          <button className="button-drop-mmenu">🗂️ Archive</button>
+          <button className="button-drop-mmenu">🗑️ Delete </button>
+        </div>
+      )}
     </div>
   );
 }

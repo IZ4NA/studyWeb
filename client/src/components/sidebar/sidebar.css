@@ -1,20 +1,20 @@
 body {
   color: white;
-  position: absolute;
+  position: fixed;
 }
 
 .sidebar {
-  border-radius: 25px;
   width: 400px;
   height: 92vh;
-  background-color: #2d2c2c;
   color: white;
   margin: 50px 30px;
 }
 
 .conteiner-sidebar {
+  background-color: #2d2c2c;
+  border-radius: 25px;
+  position: fixed;
   padding: 25px;
-
 }
 
 .top-logo {
