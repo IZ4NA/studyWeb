@@ -24,6 +24,7 @@ import Context from "./pages/hooks/context/context.jsx"
 import Dialogs from "./pages/dialogs/dialog.jsx";
 
 import Cruds from "./pages/crud/crud.jsx";
+import Todlist from "./pages/todList/todList.jsx"
 
 import Animation from "./pages/animation/animation.jsx";
 
@@ -55,6 +56,9 @@ function App() {
             <Route path="/dialogsPage" element={<Dialogs />} />
 
             <Route path="/crudsPage" element={<Cruds />} />
+
+            <Route path="/todlist" element={<Todlist />} />
+
 
             <Route path="/animationsPage" element={<Animation />} />
           </Routes>

@@ -50,6 +50,9 @@ function Sidebar() {
         <Link to="/crudsPage">Cruds</Link>
       </div>
 
+       <div className="conteiner-cruds">
+        <Link to="/todlist">TodList</Link>
+      </div>
 
       <div className="conteiner-perfil">
         <div className="perfil">
