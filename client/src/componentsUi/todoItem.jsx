@@ -1,29 +1,15 @@
-import { useState } from "react";
 
-export const TodoItem = ({ id, label, complete }) => {
-  const handleRemoveItem = () => {
-    onRemove();
-    setList([
-      ...list.filter((item) => {
-        item.id !== listItem.id;
-      }),
-    ]);
-  };
-
-
-
+export const TodoItem = ({ id, label, complete, onRemove, onCompleteItem }) => {
   return (
     <div>
-      {list.map((listItem) => (
-        <li key={id}>
-          {label}
-          {complete ? "concluido" : ""}
+      <li key={id}>
+        {label}
+        {complete ? "concluido" : ""}
 
-          <button onClick={handleCompleteItem}>concluir</button>
+        <button onClick={onCompleteItem}>concluir</button>
 
-          <button onClick={handleRemoveItem}>delete</button>
-        </li>
-      ))}
+        <button onClick={onRemove}>delete</button>
+      </li>
     </div>
   );
 };
