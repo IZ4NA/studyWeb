@@ -41,7 +41,6 @@ function Sidebar() {
         <ul className="hooks-list">
           <li><Link to="/statePage">UseState</Link></li>
           <li><Link to="/efectsPage">UseEfect</Link></li>
-          <li><Link to="/contextPage">UseContext</Link></li>
         </ul>
       </div>
 
